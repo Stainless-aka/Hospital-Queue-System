@@ -1,0 +1,1 @@
+document.addEventListener('submit', function(e){ if (e.target.id === 'tokenForm') { const btn = e.target.querySelector('button[type="submit"]'); if (btn) { btn.disabled = true; btn.insertAdjacentHTML('beforeend', ' <span class="spinner-border spinner-border-sm" role="status"></span>'); } } });
